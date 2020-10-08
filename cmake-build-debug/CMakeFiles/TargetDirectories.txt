@@ -1,0 +1,3 @@
+/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/cmake-build-debug/CMakeFiles/iterative_methods_for_solving_SLAEs.dir

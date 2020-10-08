@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/cmake-build-debug

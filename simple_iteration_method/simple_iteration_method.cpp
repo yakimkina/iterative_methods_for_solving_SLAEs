@@ -31,6 +31,10 @@ vector<VALUE_TYPE>	simple_iteration_method(vector<vector<VALUE_TYPE>> slae)
 	cout << "norm C = " << norm_C << endl;
 	vector<VALUE_TYPE>	xk = {53, -90, 107, 68};
 	vector<VALUE_TYPE>	xk_1 = multiply_with_add(matC, xk, m, n);
+
+	cout << "xk1 = ";
+	print_vector(xk_1);
+	cout << endl;
 	vector<VALUE_TYPE>	delta = subtract_vectors(xk_1, xk, m);
 	cout.precision(10);
 	cout << "acc = " << accuracy << endl;

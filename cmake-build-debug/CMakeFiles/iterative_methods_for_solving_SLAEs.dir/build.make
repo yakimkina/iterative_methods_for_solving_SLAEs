@@ -90,17 +90,122 @@ CMakeFiles/iterative_methods_for_solving_SLAEs.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iterative_methods_for_solving_SLAEs.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/main.cpp -o CMakeFiles/iterative_methods_for_solving_SLAEs.dir/main.cpp.s
 
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/print_slae.cpp.o: CMakeFiles/iterative_methods_for_solving_SLAEs.dir/flags.make
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/print_slae.cpp.o: ../print_slae.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/iterative_methods_for_solving_SLAEs.dir/print_slae.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iterative_methods_for_solving_SLAEs.dir/print_slae.cpp.o -c /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/print_slae.cpp
+
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/print_slae.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iterative_methods_for_solving_SLAEs.dir/print_slae.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/print_slae.cpp > CMakeFiles/iterative_methods_for_solving_SLAEs.dir/print_slae.cpp.i
+
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/print_slae.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iterative_methods_for_solving_SLAEs.dir/print_slae.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/print_slae.cpp -o CMakeFiles/iterative_methods_for_solving_SLAEs.dir/print_slae.cpp.s
+
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/norm.cpp.o: CMakeFiles/iterative_methods_for_solving_SLAEs.dir/flags.make
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/norm.cpp.o: ../norm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/iterative_methods_for_solving_SLAEs.dir/norm.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iterative_methods_for_solving_SLAEs.dir/norm.cpp.o -c /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/norm.cpp
+
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/norm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iterative_methods_for_solving_SLAEs.dir/norm.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/norm.cpp > CMakeFiles/iterative_methods_for_solving_SLAEs.dir/norm.cpp.i
+
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/norm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iterative_methods_for_solving_SLAEs.dir/norm.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/norm.cpp -o CMakeFiles/iterative_methods_for_solving_SLAEs.dir/norm.cpp.s
+
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/subtraction.cpp.o: CMakeFiles/iterative_methods_for_solving_SLAEs.dir/flags.make
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/subtraction.cpp.o: ../subtraction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/iterative_methods_for_solving_SLAEs.dir/subtraction.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iterative_methods_for_solving_SLAEs.dir/subtraction.cpp.o -c /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/subtraction.cpp
+
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/subtraction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iterative_methods_for_solving_SLAEs.dir/subtraction.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/subtraction.cpp > CMakeFiles/iterative_methods_for_solving_SLAEs.dir/subtraction.cpp.i
+
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/subtraction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iterative_methods_for_solving_SLAEs.dir/subtraction.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/subtraction.cpp -o CMakeFiles/iterative_methods_for_solving_SLAEs.dir/subtraction.cpp.s
+
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/multiplication.cpp.o: CMakeFiles/iterative_methods_for_solving_SLAEs.dir/flags.make
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/multiplication.cpp.o: ../multiplication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/iterative_methods_for_solving_SLAEs.dir/multiplication.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iterative_methods_for_solving_SLAEs.dir/multiplication.cpp.o -c /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/multiplication.cpp
+
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/multiplication.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iterative_methods_for_solving_SLAEs.dir/multiplication.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/multiplication.cpp > CMakeFiles/iterative_methods_for_solving_SLAEs.dir/multiplication.cpp.i
+
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/multiplication.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iterative_methods_for_solving_SLAEs.dir/multiplication.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/multiplication.cpp -o CMakeFiles/iterative_methods_for_solving_SLAEs.dir/multiplication.cpp.s
+
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/parser/parser.cpp.o: CMakeFiles/iterative_methods_for_solving_SLAEs.dir/flags.make
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/parser/parser.cpp.o: ../parser/parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/iterative_methods_for_solving_SLAEs.dir/parser/parser.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iterative_methods_for_solving_SLAEs.dir/parser/parser.cpp.o -c /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/parser/parser.cpp
+
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/parser/parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iterative_methods_for_solving_SLAEs.dir/parser/parser.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/parser/parser.cpp > CMakeFiles/iterative_methods_for_solving_SLAEs.dir/parser/parser.cpp.i
+
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/parser/parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iterative_methods_for_solving_SLAEs.dir/parser/parser.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/parser/parser.cpp -o CMakeFiles/iterative_methods_for_solving_SLAEs.dir/parser/parser.cpp.s
+
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/simple_iteration_method/simple_iteration_method.cpp.o: CMakeFiles/iterative_methods_for_solving_SLAEs.dir/flags.make
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/simple_iteration_method/simple_iteration_method.cpp.o: ../simple_iteration_method/simple_iteration_method.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/iterative_methods_for_solving_SLAEs.dir/simple_iteration_method/simple_iteration_method.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iterative_methods_for_solving_SLAEs.dir/simple_iteration_method/simple_iteration_method.cpp.o -c /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/simple_iteration_method/simple_iteration_method.cpp
+
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/simple_iteration_method/simple_iteration_method.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iterative_methods_for_solving_SLAEs.dir/simple_iteration_method/simple_iteration_method.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/simple_iteration_method/simple_iteration_method.cpp > CMakeFiles/iterative_methods_for_solving_SLAEs.dir/simple_iteration_method/simple_iteration_method.cpp.i
+
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/simple_iteration_method/simple_iteration_method.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iterative_methods_for_solving_SLAEs.dir/simple_iteration_method/simple_iteration_method.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/simple_iteration_method/simple_iteration_method.cpp -o CMakeFiles/iterative_methods_for_solving_SLAEs.dir/simple_iteration_method/simple_iteration_method.cpp.s
+
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Jacobi_method/Jacobi_method.cpp.o: CMakeFiles/iterative_methods_for_solving_SLAEs.dir/flags.make
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Jacobi_method/Jacobi_method.cpp.o: ../Jacobi_method/Jacobi_method.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Jacobi_method/Jacobi_method.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Jacobi_method/Jacobi_method.cpp.o -c /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/Jacobi_method/Jacobi_method.cpp
+
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Jacobi_method/Jacobi_method.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Jacobi_method/Jacobi_method.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/Jacobi_method/Jacobi_method.cpp > CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Jacobi_method/Jacobi_method.cpp.i
+
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Jacobi_method/Jacobi_method.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Jacobi_method/Jacobi_method.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/Jacobi_method/Jacobi_method.cpp -o CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Jacobi_method/Jacobi_method.cpp.s
+
 # Object files for target iterative_methods_for_solving_SLAEs
 iterative_methods_for_solving_SLAEs_OBJECTS = \
-"CMakeFiles/iterative_methods_for_solving_SLAEs.dir/main.cpp.o"
+"CMakeFiles/iterative_methods_for_solving_SLAEs.dir/main.cpp.o" \
+"CMakeFiles/iterative_methods_for_solving_SLAEs.dir/print_slae.cpp.o" \
+"CMakeFiles/iterative_methods_for_solving_SLAEs.dir/norm.cpp.o" \
+"CMakeFiles/iterative_methods_for_solving_SLAEs.dir/subtraction.cpp.o" \
+"CMakeFiles/iterative_methods_for_solving_SLAEs.dir/multiplication.cpp.o" \
+"CMakeFiles/iterative_methods_for_solving_SLAEs.dir/parser/parser.cpp.o" \
+"CMakeFiles/iterative_methods_for_solving_SLAEs.dir/simple_iteration_method/simple_iteration_method.cpp.o" \
+"CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Jacobi_method/Jacobi_method.cpp.o"
 
 # External object files for target iterative_methods_for_solving_SLAEs
 iterative_methods_for_solving_SLAEs_EXTERNAL_OBJECTS =
 
 iterative_methods_for_solving_SLAEs: CMakeFiles/iterative_methods_for_solving_SLAEs.dir/main.cpp.o
+iterative_methods_for_solving_SLAEs: CMakeFiles/iterative_methods_for_solving_SLAEs.dir/print_slae.cpp.o
+iterative_methods_for_solving_SLAEs: CMakeFiles/iterative_methods_for_solving_SLAEs.dir/norm.cpp.o
+iterative_methods_for_solving_SLAEs: CMakeFiles/iterative_methods_for_solving_SLAEs.dir/subtraction.cpp.o
+iterative_methods_for_solving_SLAEs: CMakeFiles/iterative_methods_for_solving_SLAEs.dir/multiplication.cpp.o
+iterative_methods_for_solving_SLAEs: CMakeFiles/iterative_methods_for_solving_SLAEs.dir/parser/parser.cpp.o
+iterative_methods_for_solving_SLAEs: CMakeFiles/iterative_methods_for_solving_SLAEs.dir/simple_iteration_method/simple_iteration_method.cpp.o
+iterative_methods_for_solving_SLAEs: CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Jacobi_method/Jacobi_method.cpp.o
 iterative_methods_for_solving_SLAEs: CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make
 iterative_methods_for_solving_SLAEs: CMakeFiles/iterative_methods_for_solving_SLAEs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable iterative_methods_for_solving_SLAEs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable iterative_methods_for_solving_SLAEs"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/iterative_methods_for_solving_SLAEs.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

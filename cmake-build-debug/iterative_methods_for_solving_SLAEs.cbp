@@ -80,10 +80,40 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/Jacobi_method/Jacobi_method.cpp">
+			<Option target="iterative_methods_for_solving_SLAEs"/>
+		</Unit>
+		<Unit filename="/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/Jacobi_method/Jacobi_method.h">
+			<Option target="iterative_methods_for_solving_SLAEs"/>
+		</Unit>
 		<Unit filename="/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/main.cpp">
 			<Option target="iterative_methods_for_solving_SLAEs"/>
 		</Unit>
 		<Unit filename="/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/main.h">
+			<Option target="iterative_methods_for_solving_SLAEs"/>
+		</Unit>
+		<Unit filename="/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/multiplication.cpp">
+			<Option target="iterative_methods_for_solving_SLAEs"/>
+		</Unit>
+		<Unit filename="/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/norm.cpp">
+			<Option target="iterative_methods_for_solving_SLAEs"/>
+		</Unit>
+		<Unit filename="/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/parser/parser.cpp">
+			<Option target="iterative_methods_for_solving_SLAEs"/>
+		</Unit>
+		<Unit filename="/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/parser/parser.h">
+			<Option target="iterative_methods_for_solving_SLAEs"/>
+		</Unit>
+		<Unit filename="/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/print_slae.cpp">
+			<Option target="iterative_methods_for_solving_SLAEs"/>
+		</Unit>
+		<Unit filename="/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/simple_iteration_method/simple_iteration_method.cpp">
+			<Option target="iterative_methods_for_solving_SLAEs"/>
+		</Unit>
+		<Unit filename="/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/simple_iteration_method/simple_iteration_method.h">
+			<Option target="iterative_methods_for_solving_SLAEs"/>
+		</Unit>
+		<Unit filename="/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/subtraction.cpp">
 			<Option target="iterative_methods_for_solving_SLAEs"/>
 		</Unit>
 		<Unit filename="/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/CMakeLists.txt">

@@ -143,6 +143,33 @@ iterative_methods_for_solving_SLAEs/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build
 .PHONY : iterative_methods_for_solving_SLAEs/fast
 
+Jacobi_method/Jacobi_method.o: Jacobi_method/Jacobi_method.cpp.o
+
+.PHONY : Jacobi_method/Jacobi_method.o
+
+# target to build an object file
+Jacobi_method/Jacobi_method.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Jacobi_method/Jacobi_method.cpp.o
+.PHONY : Jacobi_method/Jacobi_method.cpp.o
+
+Jacobi_method/Jacobi_method.i: Jacobi_method/Jacobi_method.cpp.i
+
+.PHONY : Jacobi_method/Jacobi_method.i
+
+# target to preprocess a source file
+Jacobi_method/Jacobi_method.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Jacobi_method/Jacobi_method.cpp.i
+.PHONY : Jacobi_method/Jacobi_method.cpp.i
+
+Jacobi_method/Jacobi_method.s: Jacobi_method/Jacobi_method.cpp.s
+
+.PHONY : Jacobi_method/Jacobi_method.s
+
+# target to generate assembly for a file
+Jacobi_method/Jacobi_method.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Jacobi_method/Jacobi_method.cpp.s
+.PHONY : Jacobi_method/Jacobi_method.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -170,6 +197,168 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+multiplication.o: multiplication.cpp.o
+
+.PHONY : multiplication.o
+
+# target to build an object file
+multiplication.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/multiplication.cpp.o
+.PHONY : multiplication.cpp.o
+
+multiplication.i: multiplication.cpp.i
+
+.PHONY : multiplication.i
+
+# target to preprocess a source file
+multiplication.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/multiplication.cpp.i
+.PHONY : multiplication.cpp.i
+
+multiplication.s: multiplication.cpp.s
+
+.PHONY : multiplication.s
+
+# target to generate assembly for a file
+multiplication.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/multiplication.cpp.s
+.PHONY : multiplication.cpp.s
+
+norm.o: norm.cpp.o
+
+.PHONY : norm.o
+
+# target to build an object file
+norm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/norm.cpp.o
+.PHONY : norm.cpp.o
+
+norm.i: norm.cpp.i
+
+.PHONY : norm.i
+
+# target to preprocess a source file
+norm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/norm.cpp.i
+.PHONY : norm.cpp.i
+
+norm.s: norm.cpp.s
+
+.PHONY : norm.s
+
+# target to generate assembly for a file
+norm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/norm.cpp.s
+.PHONY : norm.cpp.s
+
+parser/parser.o: parser/parser.cpp.o
+
+.PHONY : parser/parser.o
+
+# target to build an object file
+parser/parser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/parser/parser.cpp.o
+.PHONY : parser/parser.cpp.o
+
+parser/parser.i: parser/parser.cpp.i
+
+.PHONY : parser/parser.i
+
+# target to preprocess a source file
+parser/parser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/parser/parser.cpp.i
+.PHONY : parser/parser.cpp.i
+
+parser/parser.s: parser/parser.cpp.s
+
+.PHONY : parser/parser.s
+
+# target to generate assembly for a file
+parser/parser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/parser/parser.cpp.s
+.PHONY : parser/parser.cpp.s
+
+print_slae.o: print_slae.cpp.o
+
+.PHONY : print_slae.o
+
+# target to build an object file
+print_slae.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/print_slae.cpp.o
+.PHONY : print_slae.cpp.o
+
+print_slae.i: print_slae.cpp.i
+
+.PHONY : print_slae.i
+
+# target to preprocess a source file
+print_slae.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/print_slae.cpp.i
+.PHONY : print_slae.cpp.i
+
+print_slae.s: print_slae.cpp.s
+
+.PHONY : print_slae.s
+
+# target to generate assembly for a file
+print_slae.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/print_slae.cpp.s
+.PHONY : print_slae.cpp.s
+
+simple_iteration_method/simple_iteration_method.o: simple_iteration_method/simple_iteration_method.cpp.o
+
+.PHONY : simple_iteration_method/simple_iteration_method.o
+
+# target to build an object file
+simple_iteration_method/simple_iteration_method.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/simple_iteration_method/simple_iteration_method.cpp.o
+.PHONY : simple_iteration_method/simple_iteration_method.cpp.o
+
+simple_iteration_method/simple_iteration_method.i: simple_iteration_method/simple_iteration_method.cpp.i
+
+.PHONY : simple_iteration_method/simple_iteration_method.i
+
+# target to preprocess a source file
+simple_iteration_method/simple_iteration_method.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/simple_iteration_method/simple_iteration_method.cpp.i
+.PHONY : simple_iteration_method/simple_iteration_method.cpp.i
+
+simple_iteration_method/simple_iteration_method.s: simple_iteration_method/simple_iteration_method.cpp.s
+
+.PHONY : simple_iteration_method/simple_iteration_method.s
+
+# target to generate assembly for a file
+simple_iteration_method/simple_iteration_method.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/simple_iteration_method/simple_iteration_method.cpp.s
+.PHONY : simple_iteration_method/simple_iteration_method.cpp.s
+
+subtraction.o: subtraction.cpp.o
+
+.PHONY : subtraction.o
+
+# target to build an object file
+subtraction.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/subtraction.cpp.o
+.PHONY : subtraction.cpp.o
+
+subtraction.i: subtraction.cpp.i
+
+.PHONY : subtraction.i
+
+# target to preprocess a source file
+subtraction.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/subtraction.cpp.i
+.PHONY : subtraction.cpp.i
+
+subtraction.s: subtraction.cpp.s
+
+.PHONY : subtraction.s
+
+# target to generate assembly for a file
+subtraction.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/subtraction.cpp.s
+.PHONY : subtraction.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -179,9 +368,30 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... iterative_methods_for_solving_SLAEs"
+	@echo "... Jacobi_method/Jacobi_method.o"
+	@echo "... Jacobi_method/Jacobi_method.i"
+	@echo "... Jacobi_method/Jacobi_method.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... multiplication.o"
+	@echo "... multiplication.i"
+	@echo "... multiplication.s"
+	@echo "... norm.o"
+	@echo "... norm.i"
+	@echo "... norm.s"
+	@echo "... parser/parser.o"
+	@echo "... parser/parser.i"
+	@echo "... parser/parser.s"
+	@echo "... print_slae.o"
+	@echo "... print_slae.i"
+	@echo "... print_slae.s"
+	@echo "... simple_iteration_method/simple_iteration_method.o"
+	@echo "... simple_iteration_method/simple_iteration_method.i"
+	@echo "... simple_iteration_method/simple_iteration_method.s"
+	@echo "... subtraction.o"
+	@echo "... subtraction.i"
+	@echo "... subtraction.s"
 .PHONY : help
 
 

@@ -1,6 +1,5 @@
 #include "main.h"
 
-
 // какое t для МПИ
 
 // как проверить на вырожденность
@@ -23,12 +22,26 @@ int main()
 		print_vector(simple_iteration_solution);
 	}
 
-//	vector<VALUE_TYPE>	Jacobi_solution = Jacobi_method(slae);
-//	if (!Jacobi_solution.empty())
-//	{
-//		cout << endl << GREEN << "[МЕТОД ЯКОБИ] " << MAGENTA << "РЕШЕНИЕ:" << RESET << endl;
-//		print_vector(Jacobi_solution);
-//	}
+	vector<VALUE_TYPE>	Jacobi_solution = Jacobi_method(slae);
+	if (!Jacobi_solution.empty())
+	{
+		cout << endl << GREEN << "[МЕТОД ЯКОБИ] " << MAGENTA << "РЕШЕНИЕ:" << RESET << endl;
+		print_vector(Jacobi_solution);
+	}
+
+	vector<VALUE_TYPE>	Seidel_solution = Seidel_method(slae);
+	if (!Seidel_solution.empty())
+	{
+		cout << endl << GREEN << "[МЕТОД ЗЕЙДЕЛЯ] " << MAGENTA << "РЕШЕНИЕ:" << RESET << endl;
+		print_vector(Seidel_solution);
+	}
+
+	vector<VALUE_TYPE>	relaxation_solution = relaxation_method(slae);
+	if (!relaxation_solution.empty())
+	{
+		cout << endl << GREEN << "[МЕТОД РЕЛАКСАЦИИ] " << MAGENTA << "РЕШЕНИЕ:" << RESET << endl;
+		print_vector(relaxation_solution);
+	}
 
 	return 0;
 }

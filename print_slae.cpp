@@ -4,8 +4,14 @@ void	print_vector(vector<VALUE_TYPE> x)
 {
 	cout.precision(PREC);
 
-	for (VALUE_TYPE i : x)
-		cout << i << "  ";
+	for (int i = 0; i < x.size(); i++)
+		cout << x[i] << "  ";
+
+	cout << endl;
+
+//	for (VALUE_TYPE i : x)
+//		cout << i << "  ";
+
 	cout << endl;
 }
 

@@ -170,6 +170,33 @@ Jacobi_method/Jacobi_method.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Jacobi_method/Jacobi_method.cpp.s
 .PHONY : Jacobi_method/Jacobi_method.cpp.s
 
+Seidel_method/Seidel_method.o: Seidel_method/Seidel_method.cpp.o
+
+.PHONY : Seidel_method/Seidel_method.o
+
+# target to build an object file
+Seidel_method/Seidel_method.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Seidel_method/Seidel_method.cpp.o
+.PHONY : Seidel_method/Seidel_method.cpp.o
+
+Seidel_method/Seidel_method.i: Seidel_method/Seidel_method.cpp.i
+
+.PHONY : Seidel_method/Seidel_method.i
+
+# target to preprocess a source file
+Seidel_method/Seidel_method.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Seidel_method/Seidel_method.cpp.i
+.PHONY : Seidel_method/Seidel_method.cpp.i
+
+Seidel_method/Seidel_method.s: Seidel_method/Seidel_method.cpp.s
+
+.PHONY : Seidel_method/Seidel_method.s
+
+# target to generate assembly for a file
+Seidel_method/Seidel_method.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Seidel_method/Seidel_method.cpp.s
+.PHONY : Seidel_method/Seidel_method.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -305,6 +332,33 @@ print_slae.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/print_slae.cpp.s
 .PHONY : print_slae.cpp.s
 
+relaxation_method/relaxation_method.o: relaxation_method/relaxation_method.cpp.o
+
+.PHONY : relaxation_method/relaxation_method.o
+
+# target to build an object file
+relaxation_method/relaxation_method.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/relaxation_method/relaxation_method.cpp.o
+.PHONY : relaxation_method/relaxation_method.cpp.o
+
+relaxation_method/relaxation_method.i: relaxation_method/relaxation_method.cpp.i
+
+.PHONY : relaxation_method/relaxation_method.i
+
+# target to preprocess a source file
+relaxation_method/relaxation_method.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/relaxation_method/relaxation_method.cpp.i
+.PHONY : relaxation_method/relaxation_method.cpp.i
+
+relaxation_method/relaxation_method.s: relaxation_method/relaxation_method.cpp.s
+
+.PHONY : relaxation_method/relaxation_method.s
+
+# target to generate assembly for a file
+relaxation_method/relaxation_method.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/relaxation_method/relaxation_method.cpp.s
+.PHONY : relaxation_method/relaxation_method.cpp.s
+
 simple_iteration_method/simple_iteration_method.o: simple_iteration_method/simple_iteration_method.cpp.o
 
 .PHONY : simple_iteration_method/simple_iteration_method.o
@@ -371,6 +425,9 @@ help:
 	@echo "... Jacobi_method/Jacobi_method.o"
 	@echo "... Jacobi_method/Jacobi_method.i"
 	@echo "... Jacobi_method/Jacobi_method.s"
+	@echo "... Seidel_method/Seidel_method.o"
+	@echo "... Seidel_method/Seidel_method.i"
+	@echo "... Seidel_method/Seidel_method.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -386,6 +443,9 @@ help:
 	@echo "... print_slae.o"
 	@echo "... print_slae.i"
 	@echo "... print_slae.s"
+	@echo "... relaxation_method/relaxation_method.o"
+	@echo "... relaxation_method/relaxation_method.i"
+	@echo "... relaxation_method/relaxation_method.s"
 	@echo "... simple_iteration_method/simple_iteration_method.o"
 	@echo "... simple_iteration_method/simple_iteration_method.i"
 	@echo "... simple_iteration_method/simple_iteration_method.s"

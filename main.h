@@ -17,6 +17,7 @@
 /* метод простой итерации */
 //#define TAU
 #define EPSILON	0.0001
+#define RELAX	0.85
 
 /* colorful output */
 #define RESET   "\033[0m"
@@ -43,6 +44,9 @@ vector<vector<VALUE_TYPE>> 	parsing_file();
 
 vector<VALUE_TYPE>	simple_iteration_method(vector<vector<VALUE_TYPE>> slae);
 vector<VALUE_TYPE>	Jacobi_method(vector<vector<VALUE_TYPE>> slae);
+vector<VALUE_TYPE>	Seidel_method(vector<vector<VALUE_TYPE>> slae);
+vector<VALUE_TYPE>	relaxation_method(vector<vector<VALUE_TYPE>> slae);
+
 
 void	print_vector(vector<VALUE_TYPE> x);
 void 	print_slae(vector<vector<VALUE_TYPE>> slae, int m, int n); /* print SLAE with b vector */
@@ -50,11 +54,17 @@ void	print_slae(vector<vector<VALUE_TYPE>> slae, int size); /* print SLAE withou
 
 VALUE_TYPE	norm_1(vector<vector<VALUE_TYPE>> slae, int size);
 VALUE_TYPE	vector_norm_1(vector<VALUE_TYPE> x, int size);
+VALUE_TYPE	norm_1_u(vector<vector<VALUE_TYPE>> slae, int size);
 VALUE_TYPE	norm_inf(vector<vector<VALUE_TYPE>> slae, int size);
 VALUE_TYPE	vector_norm_inf(vector<VALUE_TYPE> x, int size);
+VALUE_TYPE	norm_inf_u(vector<vector<VALUE_TYPE>> slae, int size);
 
 vector<VALUE_TYPE>	subtract_vectors(vector<VALUE_TYPE> a, vector<VALUE_TYPE> b, int n);
 vector<vector<VALUE_TYPE>>	multiply(vector<vector<VALUE_TYPE>> &a, vector<vector<VALUE_TYPE>> &b);
-vector<VALUE_TYPE>	multiply_with_add(vector<vector<VALUE_TYPE>>	slae, vector<VALUE_TYPE> x, int m, int n);
+vector<VALUE_TYPE>	multiply_with_add(vector<vector<VALUE_TYPE>> slae, vector<VALUE_TYPE> x, int m, int n);
+vector<VALUE_TYPE>	multiply_with_add_iter(vector<vector<VALUE_TYPE>> slae, vector<VALUE_TYPE> x, int m, int n);
+vector<VALUE_TYPE>	multiply_with_add_iter_relax(vector<vector<VALUE_TYPE>> slae, vector<VALUE_TYPE> x, VALUE_TYPE w, int m, int n);
+
+vector<vector<VALUE_TYPE>>	create_B(vector<vector<VALUE_TYPE>> slae, int m, int n);
 
 #endif

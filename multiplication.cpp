@@ -53,7 +53,33 @@ vector<VALUE_TYPE>	multiply_with_add(vector<vector<VALUE_TYPE>> slae, vector<VAL
 	vector<VALUE_TYPE>	mult;
 
 	for (int i = 0; i < m; i++)
-		mult.push_back(sum(slae[i], x, n) + slae[i][n - 1]);
+		mult.push_back(sum(slae[i], x, n - 1) + slae[i][n - 1]);
+
+	return mult;
+}
+
+vector<VALUE_TYPE>	multiply_with_add_iter(vector<vector<VALUE_TYPE>> slae, vector<VALUE_TYPE> x, int m, int n)
+{
+	vector<VALUE_TYPE>	mult;
+
+	for (int i = 0; i < m; i++)
+	{
+		x[i] = sum(slae[i], x, n - 1) + slae[i][n - 1];
+		mult.push_back(x[i]);
+	}
+
+	return mult;
+}
+
+vector<VALUE_TYPE>	multiply_with_add_iter_relax(vector<vector<VALUE_TYPE>> slae, vector<VALUE_TYPE> x, VALUE_TYPE w, int m, int n)
+{
+	vector<VALUE_TYPE>	mult;
+
+	for (int i = 0; i < m; i++)
+	{
+		VALUE_TYPE x_wave = sum(slae[i], x, n - 1) + slae[i][n - 1];
+		mult.push_back(w * x_wave + (1 - w) * x[i]);
+	}
 
 	return mult;
 }

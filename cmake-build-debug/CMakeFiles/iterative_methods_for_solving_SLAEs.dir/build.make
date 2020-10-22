@@ -181,6 +181,32 @@ CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Jacobi_method/Jacobi_method.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Jacobi_method/Jacobi_method.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/Jacobi_method/Jacobi_method.cpp -o CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Jacobi_method/Jacobi_method.cpp.s
 
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Seidel_method/Seidel_method.cpp.o: CMakeFiles/iterative_methods_for_solving_SLAEs.dir/flags.make
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Seidel_method/Seidel_method.cpp.o: ../Seidel_method/Seidel_method.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Seidel_method/Seidel_method.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Seidel_method/Seidel_method.cpp.o -c /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/Seidel_method/Seidel_method.cpp
+
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Seidel_method/Seidel_method.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Seidel_method/Seidel_method.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/Seidel_method/Seidel_method.cpp > CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Seidel_method/Seidel_method.cpp.i
+
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Seidel_method/Seidel_method.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Seidel_method/Seidel_method.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/Seidel_method/Seidel_method.cpp -o CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Seidel_method/Seidel_method.cpp.s
+
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/relaxation_method/relaxation_method.cpp.o: CMakeFiles/iterative_methods_for_solving_SLAEs.dir/flags.make
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/relaxation_method/relaxation_method.cpp.o: ../relaxation_method/relaxation_method.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/iterative_methods_for_solving_SLAEs.dir/relaxation_method/relaxation_method.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iterative_methods_for_solving_SLAEs.dir/relaxation_method/relaxation_method.cpp.o -c /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/relaxation_method/relaxation_method.cpp
+
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/relaxation_method/relaxation_method.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iterative_methods_for_solving_SLAEs.dir/relaxation_method/relaxation_method.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/relaxation_method/relaxation_method.cpp > CMakeFiles/iterative_methods_for_solving_SLAEs.dir/relaxation_method/relaxation_method.cpp.i
+
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/relaxation_method/relaxation_method.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iterative_methods_for_solving_SLAEs.dir/relaxation_method/relaxation_method.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/relaxation_method/relaxation_method.cpp -o CMakeFiles/iterative_methods_for_solving_SLAEs.dir/relaxation_method/relaxation_method.cpp.s
+
 # Object files for target iterative_methods_for_solving_SLAEs
 iterative_methods_for_solving_SLAEs_OBJECTS = \
 "CMakeFiles/iterative_methods_for_solving_SLAEs.dir/main.cpp.o" \
@@ -190,7 +216,9 @@ iterative_methods_for_solving_SLAEs_OBJECTS = \
 "CMakeFiles/iterative_methods_for_solving_SLAEs.dir/multiplication.cpp.o" \
 "CMakeFiles/iterative_methods_for_solving_SLAEs.dir/parser/parser.cpp.o" \
 "CMakeFiles/iterative_methods_for_solving_SLAEs.dir/simple_iteration_method/simple_iteration_method.cpp.o" \
-"CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Jacobi_method/Jacobi_method.cpp.o"
+"CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Jacobi_method/Jacobi_method.cpp.o" \
+"CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Seidel_method/Seidel_method.cpp.o" \
+"CMakeFiles/iterative_methods_for_solving_SLAEs.dir/relaxation_method/relaxation_method.cpp.o"
 
 # External object files for target iterative_methods_for_solving_SLAEs
 iterative_methods_for_solving_SLAEs_EXTERNAL_OBJECTS =
@@ -203,9 +231,11 @@ iterative_methods_for_solving_SLAEs: CMakeFiles/iterative_methods_for_solving_SL
 iterative_methods_for_solving_SLAEs: CMakeFiles/iterative_methods_for_solving_SLAEs.dir/parser/parser.cpp.o
 iterative_methods_for_solving_SLAEs: CMakeFiles/iterative_methods_for_solving_SLAEs.dir/simple_iteration_method/simple_iteration_method.cpp.o
 iterative_methods_for_solving_SLAEs: CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Jacobi_method/Jacobi_method.cpp.o
+iterative_methods_for_solving_SLAEs: CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Seidel_method/Seidel_method.cpp.o
+iterative_methods_for_solving_SLAEs: CMakeFiles/iterative_methods_for_solving_SLAEs.dir/relaxation_method/relaxation_method.cpp.o
 iterative_methods_for_solving_SLAEs: CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make
 iterative_methods_for_solving_SLAEs: CMakeFiles/iterative_methods_for_solving_SLAEs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable iterative_methods_for_solving_SLAEs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable iterative_methods_for_solving_SLAEs"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/iterative_methods_for_solving_SLAEs.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -86,6 +86,12 @@
 		<Unit filename="/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/Jacobi_method/Jacobi_method.h">
 			<Option target="iterative_methods_for_solving_SLAEs"/>
 		</Unit>
+		<Unit filename="/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/Seidel_method/Seidel_method.cpp">
+			<Option target="iterative_methods_for_solving_SLAEs"/>
+		</Unit>
+		<Unit filename="/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/Seidel_method/Seidel_method.h">
+			<Option target="iterative_methods_for_solving_SLAEs"/>
+		</Unit>
 		<Unit filename="/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/main.cpp">
 			<Option target="iterative_methods_for_solving_SLAEs"/>
 		</Unit>
@@ -105,6 +111,12 @@
 			<Option target="iterative_methods_for_solving_SLAEs"/>
 		</Unit>
 		<Unit filename="/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/print_slae.cpp">
+			<Option target="iterative_methods_for_solving_SLAEs"/>
+		</Unit>
+		<Unit filename="/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/relaxation_method/relaxation_method.cpp">
+			<Option target="iterative_methods_for_solving_SLAEs"/>
+		</Unit>
+		<Unit filename="/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/relaxation_method/relaxation_method.h">
 			<Option target="iterative_methods_for_solving_SLAEs"/>
 		</Unit>
 		<Unit filename="/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/simple_iteration_method/simple_iteration_method.cpp">

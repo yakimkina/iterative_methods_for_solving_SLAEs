@@ -6,6 +6,26 @@
 
 #IncludeRegexTransform: 
 
+/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/Jacobi_method/Jacobi_method.cpp
+Jacobi_method.h
+/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/Jacobi_method/Jacobi_method.h
+
+/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/Jacobi_method/Jacobi_method.h
+../main.h
+/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/main.h
+
+/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/Seidel_method/Seidel_method.cpp
+Seidel_method.h
+/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/Seidel_method/Seidel_method.h
+
+/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/Seidel_method/Seidel_method.h
+../main.h
+/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/main.h
+
+/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/main.cpp
+main.h
+/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/main.h
+
 /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/main.h
 iostream
 -
@@ -16,11 +36,45 @@ vector
 cmath
 -
 
+/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/multiplication.cpp
+main.h
+/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/main.h
+
+/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/norm.cpp
+main.h
+/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/main.h
+
+/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/parser/parser.cpp
+parser.h
+/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/parser/parser.h
+
+/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/parser/parser.h
+fstream
+-
+../main.h
+/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/main.h
+
+/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/print_slae.cpp
+main.h
+/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/main.h
+
+/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/relaxation_method/relaxation_method.cpp
+relaxation_method.h
+/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/relaxation_method/relaxation_method.h
+
+/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/relaxation_method/relaxation_method.h
+../main.h
+/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/main.h
+
 /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/simple_iteration_method/simple_iteration_method.cpp
 simple_iteration_method.h
 /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/simple_iteration_method/simple_iteration_method.h
 
 /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/simple_iteration_method/simple_iteration_method.h
 ../main.h
+/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/main.h
+
+/Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/subtraction.cpp
+main.h
 /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/main.h
 

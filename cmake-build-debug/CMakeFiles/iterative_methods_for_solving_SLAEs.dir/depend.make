@@ -5,6 +5,10 @@ CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Jacobi_method/Jacobi_method.c
 CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Jacobi_method/Jacobi_method.cpp.o: ../Jacobi_method/Jacobi_method.h
 CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Jacobi_method/Jacobi_method.cpp.o: ../main.h
 
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Seidel_method/Seidel_method.cpp.o: ../Seidel_method/Seidel_method.cpp
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Seidel_method/Seidel_method.cpp.o: ../Seidel_method/Seidel_method.h
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Seidel_method/Seidel_method.cpp.o: ../main.h
+
 CMakeFiles/iterative_methods_for_solving_SLAEs.dir/main.cpp.o: ../main.cpp
 CMakeFiles/iterative_methods_for_solving_SLAEs.dir/main.cpp.o: ../main.h
 
@@ -20,6 +24,10 @@ CMakeFiles/iterative_methods_for_solving_SLAEs.dir/parser/parser.cpp.o: ../parse
 
 CMakeFiles/iterative_methods_for_solving_SLAEs.dir/print_slae.cpp.o: ../main.h
 CMakeFiles/iterative_methods_for_solving_SLAEs.dir/print_slae.cpp.o: ../print_slae.cpp
+
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/relaxation_method/relaxation_method.cpp.o: ../main.h
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/relaxation_method/relaxation_method.cpp.o: ../relaxation_method/relaxation_method.cpp
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/relaxation_method/relaxation_method.cpp.o: ../relaxation_method/relaxation_method.h
 
 CMakeFiles/iterative_methods_for_solving_SLAEs.dir/simple_iteration_method/simple_iteration_method.cpp.o: ../main.h
 CMakeFiles/iterative_methods_for_solving_SLAEs.dir/simple_iteration_method/simple_iteration_method.cpp.o: ../simple_iteration_method/simple_iteration_method.cpp

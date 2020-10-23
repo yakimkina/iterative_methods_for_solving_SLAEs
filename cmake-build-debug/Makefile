@@ -170,6 +170,60 @@ Jacobi_method/Jacobi_method.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Jacobi_method/Jacobi_method.cpp.s
 .PHONY : Jacobi_method/Jacobi_method.cpp.s
 
+QR_method/QR_method.o: QR_method/QR_method.cpp.o
+
+.PHONY : QR_method/QR_method.o
+
+# target to build an object file
+QR_method/QR_method.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/QR_method/QR_method.cpp.o
+.PHONY : QR_method/QR_method.cpp.o
+
+QR_method/QR_method.i: QR_method/QR_method.cpp.i
+
+.PHONY : QR_method/QR_method.i
+
+# target to preprocess a source file
+QR_method/QR_method.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/QR_method/QR_method.cpp.i
+.PHONY : QR_method/QR_method.cpp.i
+
+QR_method/QR_method.s: QR_method/QR_method.cpp.s
+
+.PHONY : QR_method/QR_method.s
+
+# target to generate assembly for a file
+QR_method/QR_method.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/QR_method/QR_method.cpp.s
+.PHONY : QR_method/QR_method.cpp.s
+
+QR_method/create_matrix.o: QR_method/create_matrix.cpp.o
+
+.PHONY : QR_method/create_matrix.o
+
+# target to build an object file
+QR_method/create_matrix.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/QR_method/create_matrix.cpp.o
+.PHONY : QR_method/create_matrix.cpp.o
+
+QR_method/create_matrix.i: QR_method/create_matrix.cpp.i
+
+.PHONY : QR_method/create_matrix.i
+
+# target to preprocess a source file
+QR_method/create_matrix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/QR_method/create_matrix.cpp.i
+.PHONY : QR_method/create_matrix.cpp.i
+
+QR_method/create_matrix.s: QR_method/create_matrix.cpp.s
+
+.PHONY : QR_method/create_matrix.s
+
+# target to generate assembly for a file
+QR_method/create_matrix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/QR_method/create_matrix.cpp.s
+.PHONY : QR_method/create_matrix.cpp.s
+
 Seidel_method/Seidel_method.o: Seidel_method/Seidel_method.cpp.o
 
 .PHONY : Seidel_method/Seidel_method.o
@@ -196,6 +250,60 @@ Seidel_method/Seidel_method.s: Seidel_method/Seidel_method.cpp.s
 Seidel_method/Seidel_method.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Seidel_method/Seidel_method.cpp.s
 .PHONY : Seidel_method/Seidel_method.cpp.s
+
+inversion.o: inversion.cpp.o
+
+.PHONY : inversion.o
+
+# target to build an object file
+inversion.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/inversion.cpp.o
+.PHONY : inversion.cpp.o
+
+inversion.i: inversion.cpp.i
+
+.PHONY : inversion.i
+
+# target to preprocess a source file
+inversion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/inversion.cpp.i
+.PHONY : inversion.cpp.i
+
+inversion.s: inversion.cpp.s
+
+.PHONY : inversion.s
+
+# target to generate assembly for a file
+inversion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/inversion.cpp.s
+.PHONY : inversion.cpp.s
+
+is_degenerate.o: is_degenerate.cpp.o
+
+.PHONY : is_degenerate.o
+
+# target to build an object file
+is_degenerate.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/is_degenerate.cpp.o
+.PHONY : is_degenerate.cpp.o
+
+is_degenerate.i: is_degenerate.cpp.i
+
+.PHONY : is_degenerate.i
+
+# target to preprocess a source file
+is_degenerate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/is_degenerate.cpp.i
+.PHONY : is_degenerate.cpp.i
+
+is_degenerate.s: is_degenerate.cpp.s
+
+.PHONY : is_degenerate.s
+
+# target to generate assembly for a file
+is_degenerate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/is_degenerate.cpp.s
+.PHONY : is_degenerate.cpp.s
 
 main.o: main.cpp.o
 
@@ -359,6 +467,33 @@ relaxation_method/relaxation_method.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/relaxation_method/relaxation_method.cpp.s
 .PHONY : relaxation_method/relaxation_method.cpp.s
 
+reverse_traverse.o: reverse_traverse.cpp.o
+
+.PHONY : reverse_traverse.o
+
+# target to build an object file
+reverse_traverse.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/reverse_traverse.cpp.o
+.PHONY : reverse_traverse.cpp.o
+
+reverse_traverse.i: reverse_traverse.cpp.i
+
+.PHONY : reverse_traverse.i
+
+# target to preprocess a source file
+reverse_traverse.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/reverse_traverse.cpp.i
+.PHONY : reverse_traverse.cpp.i
+
+reverse_traverse.s: reverse_traverse.cpp.s
+
+.PHONY : reverse_traverse.s
+
+# target to generate assembly for a file
+reverse_traverse.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/reverse_traverse.cpp.s
+.PHONY : reverse_traverse.cpp.s
+
 simple_iteration_method/simple_iteration_method.o: simple_iteration_method/simple_iteration_method.cpp.o
 
 .PHONY : simple_iteration_method/simple_iteration_method.o
@@ -413,6 +548,33 @@ subtraction.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/subtraction.cpp.s
 .PHONY : subtraction.cpp.s
 
+transposition.o: transposition.cpp.o
+
+.PHONY : transposition.o
+
+# target to build an object file
+transposition.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/transposition.cpp.o
+.PHONY : transposition.cpp.o
+
+transposition.i: transposition.cpp.i
+
+.PHONY : transposition.i
+
+# target to preprocess a source file
+transposition.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/transposition.cpp.i
+.PHONY : transposition.cpp.i
+
+transposition.s: transposition.cpp.s
+
+.PHONY : transposition.s
+
+# target to generate assembly for a file
+transposition.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterative_methods_for_solving_SLAEs.dir/build.make CMakeFiles/iterative_methods_for_solving_SLAEs.dir/transposition.cpp.s
+.PHONY : transposition.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -425,9 +587,21 @@ help:
 	@echo "... Jacobi_method/Jacobi_method.o"
 	@echo "... Jacobi_method/Jacobi_method.i"
 	@echo "... Jacobi_method/Jacobi_method.s"
+	@echo "... QR_method/QR_method.o"
+	@echo "... QR_method/QR_method.i"
+	@echo "... QR_method/QR_method.s"
+	@echo "... QR_method/create_matrix.o"
+	@echo "... QR_method/create_matrix.i"
+	@echo "... QR_method/create_matrix.s"
 	@echo "... Seidel_method/Seidel_method.o"
 	@echo "... Seidel_method/Seidel_method.i"
 	@echo "... Seidel_method/Seidel_method.s"
+	@echo "... inversion.o"
+	@echo "... inversion.i"
+	@echo "... inversion.s"
+	@echo "... is_degenerate.o"
+	@echo "... is_degenerate.i"
+	@echo "... is_degenerate.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -446,12 +620,18 @@ help:
 	@echo "... relaxation_method/relaxation_method.o"
 	@echo "... relaxation_method/relaxation_method.i"
 	@echo "... relaxation_method/relaxation_method.s"
+	@echo "... reverse_traverse.o"
+	@echo "... reverse_traverse.i"
+	@echo "... reverse_traverse.s"
 	@echo "... simple_iteration_method/simple_iteration_method.o"
 	@echo "... simple_iteration_method/simple_iteration_method.i"
 	@echo "... simple_iteration_method/simple_iteration_method.s"
 	@echo "... subtraction.o"
 	@echo "... subtraction.i"
 	@echo "... subtraction.s"
+	@echo "... transposition.o"
+	@echo "... transposition.i"
+	@echo "... transposition.s"
 .PHONY : help
 
 

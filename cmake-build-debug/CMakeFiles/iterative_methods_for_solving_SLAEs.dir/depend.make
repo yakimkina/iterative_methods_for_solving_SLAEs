@@ -5,9 +5,23 @@ CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Jacobi_method/Jacobi_method.c
 CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Jacobi_method/Jacobi_method.cpp.o: ../Jacobi_method/Jacobi_method.h
 CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Jacobi_method/Jacobi_method.cpp.o: ../main.h
 
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/QR_method/QR_method.cpp.o: ../QR_method/QR_method.cpp
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/QR_method/QR_method.cpp.o: ../QR_method/QR_method.h
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/QR_method/QR_method.cpp.o: ../main.h
+
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/QR_method/create_matrix.cpp.o: ../QR_method/QR_method.h
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/QR_method/create_matrix.cpp.o: ../QR_method/create_matrix.cpp
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/QR_method/create_matrix.cpp.o: ../main.h
+
 CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Seidel_method/Seidel_method.cpp.o: ../Seidel_method/Seidel_method.cpp
 CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Seidel_method/Seidel_method.cpp.o: ../Seidel_method/Seidel_method.h
 CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Seidel_method/Seidel_method.cpp.o: ../main.h
+
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/inversion.cpp.o: ../inversion.cpp
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/inversion.cpp.o: ../main.h
+
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/is_degenerate.cpp.o: ../is_degenerate.cpp
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/is_degenerate.cpp.o: ../main.h
 
 CMakeFiles/iterative_methods_for_solving_SLAEs.dir/main.cpp.o: ../main.cpp
 CMakeFiles/iterative_methods_for_solving_SLAEs.dir/main.cpp.o: ../main.h
@@ -29,10 +43,16 @@ CMakeFiles/iterative_methods_for_solving_SLAEs.dir/relaxation_method/relaxation_
 CMakeFiles/iterative_methods_for_solving_SLAEs.dir/relaxation_method/relaxation_method.cpp.o: ../relaxation_method/relaxation_method.cpp
 CMakeFiles/iterative_methods_for_solving_SLAEs.dir/relaxation_method/relaxation_method.cpp.o: ../relaxation_method/relaxation_method.h
 
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/reverse_traverse.cpp.o: ../main.h
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/reverse_traverse.cpp.o: ../reverse_traverse.cpp
+
 CMakeFiles/iterative_methods_for_solving_SLAEs.dir/simple_iteration_method/simple_iteration_method.cpp.o: ../main.h
 CMakeFiles/iterative_methods_for_solving_SLAEs.dir/simple_iteration_method/simple_iteration_method.cpp.o: ../simple_iteration_method/simple_iteration_method.cpp
 CMakeFiles/iterative_methods_for_solving_SLAEs.dir/simple_iteration_method/simple_iteration_method.cpp.o: ../simple_iteration_method/simple_iteration_method.h
 
 CMakeFiles/iterative_methods_for_solving_SLAEs.dir/subtraction.cpp.o: ../main.h
 CMakeFiles/iterative_methods_for_solving_SLAEs.dir/subtraction.cpp.o: ../subtraction.cpp
+
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/transposition.cpp.o: ../main.h
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/transposition.cpp.o: ../transposition.cpp
 

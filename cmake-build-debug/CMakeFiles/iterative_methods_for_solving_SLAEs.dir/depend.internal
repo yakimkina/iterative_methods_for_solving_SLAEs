@@ -5,9 +5,23 @@ CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Jacobi_method/Jacobi_method.c
  /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/Jacobi_method/Jacobi_method.cpp
  /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/Jacobi_method/Jacobi_method.h
  /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/main.h
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/QR_method/QR_method.cpp.o
+ /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/QR_method/QR_method.cpp
+ /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/QR_method/QR_method.h
+ /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/main.h
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/QR_method/create_matrix.cpp.o
+ /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/QR_method/QR_method.h
+ /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/QR_method/create_matrix.cpp
+ /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/main.h
 CMakeFiles/iterative_methods_for_solving_SLAEs.dir/Seidel_method/Seidel_method.cpp.o
  /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/Seidel_method/Seidel_method.cpp
  /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/Seidel_method/Seidel_method.h
+ /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/main.h
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/inversion.cpp.o
+ /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/inversion.cpp
+ /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/main.h
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/is_degenerate.cpp.o
+ /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/is_degenerate.cpp
  /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/main.h
 CMakeFiles/iterative_methods_for_solving_SLAEs.dir/main.cpp.o
  /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/main.cpp
@@ -29,6 +43,9 @@ CMakeFiles/iterative_methods_for_solving_SLAEs.dir/relaxation_method/relaxation_
  /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/main.h
  /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/relaxation_method/relaxation_method.cpp
  /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/relaxation_method/relaxation_method.h
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/reverse_traverse.cpp.o
+ /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/main.h
+ /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/reverse_traverse.cpp
 CMakeFiles/iterative_methods_for_solving_SLAEs.dir/simple_iteration_method/simple_iteration_method.cpp.o
  /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/main.h
  /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/simple_iteration_method/simple_iteration_method.cpp
@@ -36,3 +53,6 @@ CMakeFiles/iterative_methods_for_solving_SLAEs.dir/simple_iteration_method/simpl
 CMakeFiles/iterative_methods_for_solving_SLAEs.dir/subtraction.cpp.o
  /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/main.h
  /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/subtraction.cpp
+CMakeFiles/iterative_methods_for_solving_SLAEs.dir/transposition.cpp.o
+ /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/main.h
+ /Users/yakimkina/_workspace/_mgtu/cpp/iterative_methods_for_solving_SLAEs/transposition.cpp

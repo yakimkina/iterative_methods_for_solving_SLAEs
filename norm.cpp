@@ -36,21 +36,6 @@ VALUE_TYPE	vector_norm_1(vector<VALUE_TYPE> x, int size)
 	return sum;
 }
 
-VALUE_TYPE	norm_1_u(vector<vector<VALUE_TYPE>> slae, int size)
-{
-	VALUE_TYPE	max = 0;
-
-	for (int j = 0; j < size; j++)
-	{
-		VALUE_TYPE	sum = 0;
-		for (int i = 0; i < size; i++)
-			sum += abs(slae[i][j]);
-
-		if (sum > max) max = sum;
-	}
-
-	return max;
-}
 
 VALUE_TYPE	norm_inf(vector<vector<VALUE_TYPE>> slae, int size)
 {

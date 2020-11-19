@@ -47,6 +47,7 @@ vector<VALUE_TYPE>	Jacobi_method(vector<vector<VALUE_TYPE>> slae)
 	vector<VALUE_TYPE>	delta = subtract_vectors(xk_1, xk, m);
 
 	int k = 0; // количесвто итераций
+	int ap = 0; // апостериорная оценка
 	while (vector_norm_inf(delta, m) > accuracy)
 	{
 //		cout << "xk = " << endl;
@@ -54,6 +55,9 @@ vector<VALUE_TYPE>	Jacobi_method(vector<vector<VALUE_TYPE>> slae)
 		xk = xk_1;
 		xk_1 = multiply_with_add(matC, xk, m, n);
 		delta = subtract_vectors(xk_1, xk, m);
+
+		if (vector_norm_inf(delta, m) > EPSILON) ap += 1;
+
 
 		k += 1;
 //		cout << endl;
@@ -63,9 +67,9 @@ vector<VALUE_TYPE>	Jacobi_method(vector<vector<VALUE_TYPE>> slae)
 
 	cout << "количество итераций = " << k << endl;
 	cout.precision(6);
-	cout << "априорная = " << pow(norm_C, m) * vector_norm_inf(subtract_vectors(x0, xk_1, m), m) << endl;
+	cout<< BLUE << "априорная = " << log(EPSILON / vector_norm_inf(subtract_vectors(x0, xk_1, m), m)) / log(norm_C) << endl;
 	cout.precision(10);
-	cout << "апостериорная = " << norm_C / (1 - norm_C) * vector_norm_inf(delta, m) << endl;
+	cout << "апостериорная = " << ap  << RESET<< endl;
 	cout << "точность = " << accuracy << endl;
 	cout.precision(4);
 

@@ -20,8 +20,8 @@
 #define VAR		19
 //#define EPSILON	0.0001
 #define EPSILON	0.0000001
-#define	TAU		0.074
-#define RELAX	0.85
+#define	TAU		0.02
+#define RELAX	0.5
 
 /* colorful output */
 #define RESET   "\033[0m"
